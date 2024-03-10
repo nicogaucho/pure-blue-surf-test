@@ -155,28 +155,27 @@ function App() {
           <div className="carousel-inner">
             <div className="carousel-item active first-slide">
               <div className="carousel-caption caption-animated">
-                <h5 className="fw-light">Follow on our social network</h5>
-                <i className="bi bi-facebook mx-2 tx-main-color"></i>
-                <i className="bi bi-instagram mx-2"></i>
-                <i className="bi bi-twitter mx-2"></i>
+                <p className="fw-light m-0 p-0">Follow on our social network</p>
+                <i className="bi bi-facebook mx-2 text-secondary"></i>
+                <i className="bi bi-instagram mx-2 text-secondary"></i>
+                <i className="bi bi-twitter mx-2 text-secondary"></i>
               </div>
             </div>
             <div className="carousel-item second-slide">
               <div className="carousel-caption caption-animated">
-                <h5 className="fw-light">Book here your surf trip</h5>
-                <p>
-                  book your surf lessons for all levels, learn how to surf with
-                  us
+                <p className="fw-light m-0 p-0">Direct booking</p>
+                <p className="text-secondary small">
+                  Book your stay and more activities directly from here, scroll to see more
                 </p>
               </div>
             </div>
             <div className="carousel-item third-slide">
               <div className="carousel-caption caption-animated">
-                <h5 className="fw-light">
+                <p className="fw-light m-0 p-0">
                   Discoved the perfection of Maldives
-                </h5>
-                <p>
-                  Get how we offer yoga retreat, more activites and all kinds of
+                </p>
+                <p className="text-secondary small">
+                  Get how we offer yoga retreat, surf and more activites and all kinds of
                   packages
                 </p>
               </div>
@@ -693,7 +692,9 @@ function App() {
                     }}>
                        <p className='tx-orange text-white display-5'>AWESOME LIFE AT PURE BLUE</p>
                        <p className=' lead'>
-                        <a href="#" className='text-decoration-none tx-main-color'>Follow us on instagram</a>  
+                        <a href="#" className='text-decoration-none tx-main-color'>Follow us on instagram
+                        <i className="bi bi-instagram mx-2 tx-main-color"></i>
+                        </a>  
                       </p>                       
                     </div>  
                   </div>
@@ -709,7 +710,9 @@ function App() {
                     }}>
                     <p className='tx-orange text-white display-5'>AWESOME LIFE AT PURE BLUE</p>
                        <p className=' lead'>
-                        <a href="#" className='text-decoration-none tx-main-color'>Follow us on instagram</a>  
+                        <a href="#" className='text-decoration-none tx-main-color'>Follow us on instagram
+                        <i className="bi bi-instagram mx-2 tx-main-color"></i>
+                        </a>  
                       </p>  
                     </div>  
                   </div>
@@ -725,7 +728,9 @@ function App() {
                     }}>
                     <p className='tx-orange text-white display-5'>AWESOME LIFE AT PURE BLUE</p>
                        <p className=' lead'>
-                        <a href="#" className='tx-main-color text-decoration-none'>Follow us on instagram</a>  
+                        <a href="#" className='tx-main-color text-decoration-none'>Follow us on instagram
+                        <i className="bi bi-instagram mx-2 tx-main-color"></i>
+                        </a>  
                       </p>  
                     </div>  
                   </div>

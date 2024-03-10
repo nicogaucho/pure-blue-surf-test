@@ -54,7 +54,7 @@ body {
   height: 8px;
   border-radius: 50%;
   border: 1px solid white;
-  background-color: #e04826;
+  background-color: #EE9B00;
   margin: 0px 10px;
 }
 
@@ -146,6 +146,7 @@ body {
 .slider {
   width: 100vw !important;
   height: 75vh !important;
+  cursor: pointer;
 }
 
 .slide-1 {
@@ -179,7 +180,7 @@ body {
 }
 
 .nav-link.active {
-  color: #e04826 !important;
+  color: #EE9B00 !important;
 }
 
 .bg-image {
