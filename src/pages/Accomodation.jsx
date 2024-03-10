@@ -71,7 +71,7 @@ export default function Accomodation() {
                 <div className="container p-5">
                   <div className="row mb-5 justify-content-around align-items-center">
                     <div className="col-12 col-md-5 mb-3">
-                      <Swiper
+                    <Swiper
                         style={{
                           '--swiper-navigation-color': '#fff',
                           '--swiper-pagination-color': '#fff',
@@ -117,6 +117,8 @@ export default function Accomodation() {
                           <img src={room3URL} className="img-fluid" />
                         </SwiperSlide>
                       </Swiper>
+                      
+                      
                     </div>
                     <div className="col-12 col-md-5 mb-3">
                       <p className="tx-orange h1 tx-blue-color">Standard Island view</p>
@@ -138,7 +140,7 @@ export default function Accomodation() {
                 <div className="container p-5">
                   <div className="row mb-5 justify-content-around align-items-center">
                     <div className="col-12 col-md-5 mb-3">
-                      <Swiper
+                    <Swiper
                         style={{
                           '--swiper-navigation-color': '#fff',
                           '--swiper-pagination-color': '#fff',
@@ -205,7 +207,7 @@ export default function Accomodation() {
                 <div className="container p-5">
                   <div className="row mb-5 justify-content-around align-items-center">
                     <div className="col-12 col-md-5 mb-3">
-                      <Swiper
+                    <Swiper
                         style={{
                           '--swiper-navigation-color': '#fff',
                           '--swiper-pagination-color': '#fff',

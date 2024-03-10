@@ -35,6 +35,7 @@ function App() {
   return (
     <div>
       <ScrollTop />
+      {/* navbar */}
       <nav
         className="navbar navbar-expand-lg bg-nav-custom px-md-5 py-md-3 fixed-top"
         aria-label="Thirteenth navbar example"
@@ -108,6 +109,7 @@ function App() {
         </div>
       </nav>
 
+      {/* hero */}
       <div className="position-absolute heading">
         <div className="container">
           <div className="row justify-content-center">
@@ -122,7 +124,6 @@ function App() {
           </div>
         </div>
       </div>
-
       <header>
         <div
           id="carouselExampleCaptions"
@@ -207,7 +208,6 @@ function App() {
           </button>
         </div>
       </header>
-
       <div className="container mt-5 pt-5">
         <div className="row mb-5">
           <div className="col-12 text-center">
@@ -239,6 +239,7 @@ function App() {
         </div>
       </div>
 
+      {/* video section */}
       <div className="container mb-3 mb-3">
         <div className="row align-items-center justify-content-around">
           <div className="col-10 col-md-6 mb-3">
@@ -307,6 +308,7 @@ function App() {
         </div>
       </div>
 
+      {/* cards packages */}
       <main>
         <section className="py-3 text-center container">
           <div className="row py-lg-5">
@@ -413,6 +415,7 @@ function App() {
         </div>
       </main>
 
+      {/* what customers */}
       <div className="container my-5 py-3">
         <div className="row">
           <div className="col-12 text-center">
@@ -422,7 +425,6 @@ function App() {
           </div>
         </div>
       </div>
-
       <div className="row justify-content-center">
               <div className="col-12 col-md-12">
                 <div className="card bg-main-color text-white border-0 rounded-0 py-5">
@@ -447,6 +449,7 @@ function App() {
               </div>
       </div>
 
+      {/* surf courses section */}
       <div className="container-fluid bg-surf-courses">
         <div className="row">
           <div className="p-md-5">
@@ -468,6 +471,7 @@ function App() {
         </div>
       </div>
 
+      {/* accomodation section */}
       <main>
         <section className="py-3 text-center container">
           <div className="row py-lg-5">
@@ -559,6 +563,7 @@ function App() {
         </div>
       </main>
 
+      {/* yoga section */}
       <div className="container my-5 py-5">
         <div className="row">
           <div className="col-12 col-md-6 mb-3">
@@ -591,7 +596,8 @@ function App() {
         </div>
       </div>
 
-      <main>
+      {/* activities section */}
+      <div>
         <section className="py-3 text-center container">
           <div className="row py-lg-5">
             <div className="col-10 col-md-8 mx-auto">
@@ -666,16 +672,16 @@ function App() {
             </div>
           </div>
         </div>
-      </main>
+      </div>
 
-      <div className='container-fluid my-5 py-5'>
+      {/* IMAGE carousel */}
         <div className="row">
           <div className="col-12">
             <Swiper
               navigation={true}
               modules={[EffectFade, Navigation]}
               effect={'fade'}
-              className="mySwiper"
+              className="slider"
             >
               <SwiperSlide>
                 <div className="container-fluid slide-1">
@@ -728,9 +734,9 @@ function App() {
             </Swiper>
           </div>
         </div>
-      </div>
 
-      <main>
+      {/* about us section */}
+      <div>
         <section className="py-3 text-center container">
           <div className="row py-lg-5">
             <div className="col-10 col-md-8 mx-auto">
@@ -783,10 +789,11 @@ function App() {
             </div>
           </div>
         </div>
-      </main>
+      </div>
 
+       {/* form contact */}               
       <Contact />
-        
+                  
       <Footer />
 
     </div>
