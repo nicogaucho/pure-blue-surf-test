@@ -1,0 +1,30 @@
+.centerheroyoga {
+  background: url('../assets/yogahero.jpg');
+  background-position: 0% 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cardyoga1 {
+  height: 300px;
+  background: url('https://images.unsplash.com/photo-1600618528240-fb9fc964b853?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardyoga2 {
+  height: 300px;
+  background: url('https://images.unsplash.com/photo-1532798442725-41036acc7489?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardyoga3 {
+  height: 300px;
+  background: url('https://images.unsplash.com/photo-1510894347713-fc3ed6fdf539?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

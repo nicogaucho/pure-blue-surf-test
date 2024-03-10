@@ -1,0 +1,230 @@
+@font-face {
+  font-family: 'Avenir-Next';
+  src: url('./fonts/AvenirNextFont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Tropical-Orange';
+  src: url('./fonts/TROPICALORANGE.otf') format('truetype');
+}
+
+body {
+  font-family: 'Avenir-Next', sans-serif;
+}
+
+.tx-orange {
+  font-family: 'Tropical-Orange', sans-serif;
+}
+
+.spacing {
+  letter-spacing: 4px;
+}
+
+.tx-main-color {
+  color: #EE9B00;
+}
+
+.bg-main-color {
+  background-color: #EE9B00;
+}
+
+.tx-blue-color {
+  color: #003458;
+}
+
+.bg-nav-custom {
+  background: linear-gradient(#D9C0AE, transparent);
+}
+
+.nav-link:hover {
+  color: #EE9B00 !important;
+}
+
+#book-nav:hover {
+  color: #EE9B00 !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+  font-size: 27px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: #e04826;
+  margin: 0px 10px;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.first-slide {
+  background: linear-gradient(#D9C0AE, transparent, rgba(0,0,0,1)), url('./assets/Hero1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.second-slide {
+  background: linear-gradient(#D9C0AE, transparent, rgba(0,0,0,1)), url('./assets/Hero2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.third-slide {
+  background: linear-gradient(#D9C0AE, transparent, rgba(0,0,0,1)), url('./assets/Hero3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
+
+.heading {
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.caption-animated {
+  opacity: 0;
+}
+
+.carousel-item.active .caption-animated {
+  transition: 1s;
+  opacity: 1;
+  transform: translateY(-50px);
+}
+
+.btn-book {
+  padding: 15px 60px;
+  border: none;
+  background-color: #003458;
+  color: white;
+  box-shadow: 2px 2px 6px rgb(63, 63, 63);
+  font-weight: 800;
+}
+
+.btn-book-outline {
+  padding: 15px 60px;
+  background-color: transparent;
+  border: 2px solid #003458;
+  color: #003458;
+  box-shadow: 2px 2px 6px rgb(63, 63, 63);
+}
+
+.bg-blue {
+  background-color: #003458;
+}
+
+.table > :not(caption) > * > * {
+  width: 100px;
+  height: 50px;
+}
+
+.bg-surf-courses {
+  height: 75vh;
+  background:linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('https://images.unsplash.com/photo-1651538788343-00a9605d3d63?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.slide-1 {
+  width: 100%;
+  height: 70vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./assets/slide1.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.slide-2 { 
+  width: 100%;
+  height: 70vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./assets/slide2.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+} 
+
+.slide-3 {
+  width: 100%;
+  height: 70vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./assets/slide3.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.nav-link.active {
+  color: #e04826 !important;
+}
+
+.bg-image {
+  background-image: url('./assets/ocean.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
