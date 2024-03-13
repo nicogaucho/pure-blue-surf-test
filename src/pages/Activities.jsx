@@ -66,6 +66,104 @@ export default function Activities() {
                       <p className="lead tx-main-color">How to do it</p>
                       <p className="text-secondary">You can ask the equipment at your arrival or participate to organized snorkeling trips for added price</p>
                     </div>
+                    <div className="col-12 my-3">
+                    <p className="fs-3 tx-orange tx-blue-color text-center spacing">See our Snorkeling Plans</p>
+                    <div className="table-responsive">
+                        <table className="table table-hover">
+                        <thead>
+                            <tr>
+                              <th scope="col">
+                                <span className="tx-main-color">
+                                Snorkeling Type
+                                </span></th>
+                              <th scope="col">
+                                <span className="tx-main-color">
+                                Duration
+                                </span>
+                                </th>
+                              <th scope="col">
+                                <span className="tx-main-color">
+                                Price PP for 3/more
+                                </span>
+                              </th>
+                              <th scope="col">
+                                <span className="tx-main-color">
+                                Price PP for 2
+                                </span>
+                              </th>
+                              <th scope="col">
+                                <span className="tx-main-color">
+                                Price PP for 1
+                                </span>
+                             </th>
+                              <th scope="col">
+                                <span className="tx-main-color">
+                                Description
+                                </span>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">Fish Point snorkeling</th>
+                              <td>1.5 HRS</td>
+                              <td>$35</td>
+                              <td>$40</td>
+                              <td>$80</td>
+                              <td>Explore the more vibrant marine life at Fish Point</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Fish Point snorkeling</th>
+                              <td>1.5 HRS</td>
+                              <td>$35</td>
+                              <td>$40</td>
+                              <td>$80</td>
+                              <td>Explore the more vibrant marine life at Fish Point</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Fish Point snorkeling</th>
+                              <td>1.5 HRS</td>
+                              <td>$35</td>
+                              <td>$40</td>
+                              <td>$80</td>
+                              <td>Explore the more vibrant marine life at Fish Point</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Fish Point snorkeling</th>
+                              <td>1.5 HRS</td>
+                              <td>$35</td>
+                              <td>$40</td>
+                              <td>$80</td>
+                              <td>Explore the more vibrant marine life at Fish Point</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Fish Point snorkeling</th>
+                              <td>1.5 HRS</td>
+                              <td>$35</td>
+                              <td>$40</td>
+                              <td>$80</td>
+                              <td>Explore the more vibrant marine life at Fish Point</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Fish Point snorkeling</th>
+                              <td>1.5 HRS</td>
+                              <td>$35</td>
+                              <td>$40</td>
+                              <td>$80</td>
+                              <td>Explore the more vibrant marine life at Fish Point</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Fish Point snorkeling</th>
+                              <td>1.5 HRS</td>
+                              <td>$35</td>
+                              <td>$40</td>
+                              <td>$80</td>
+                              <td>Explore the more vibrant marine life at Fish Point</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

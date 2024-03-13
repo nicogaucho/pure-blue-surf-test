@@ -21,7 +21,7 @@ body {
 }
 
 .tx-main-color {
-  color: #EE9B00;
+  color: #EE9B00 !important;
 }
 
 .bg-main-color {
@@ -29,7 +29,7 @@ body {
 }
 
 .tx-blue-color {
-  color: #003458;
+  color: #003458 !important;
 }
 
 .bg-nav-custom {

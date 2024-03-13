@@ -18,7 +18,7 @@ export default function SurfCourses() {
         <div className="row mb-5">
           <div className="col-12 text-center">
             <p className="h2 tx-main-color">Pristine waves and stunning tropical scenery.</p>
-            <p className="lead">Improve your surfing skills with us at Pure Blue Surf & Yoga Retreat in the Maldives. <br /> Our surf lessons are perfect for people who already know a bit about surfing and want to get better. <br /> It&apos;s a great way to have fun and learn new things!</p>
+            <p className="text-secondary">Our surf lessons are designed for all levels . Perfect for people whom wants to start and learn in the paradise , <br /> for the one who already know a bit about surfing and want to get better or whom ready to score perfect waves ... <br /> Pure blue Surf & Yoga retreat will always provide you the best way to have fun and learn new   things!</p>
           </div>
         </div>
         <div className="row mb-5 justify-content-around align-items-center">

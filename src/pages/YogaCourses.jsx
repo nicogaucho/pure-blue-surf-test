@@ -72,7 +72,7 @@ export default function YogaCourses() {
                   <li>08.45 – Healthy breakfast. </li>
                   <li>09.00 – Choosing the surf spot and off to ride epic waves.</li>
                   <li>12.30 – Lunch time.</li>
-                  <li>13.30 – Another surf or two. </li>
+                  <li>13.30 – Another surf or enjoy our many activities. </li>
                   <li>17.30 – Sunset Yin Yoga . </li>
                   <li>19.30 – Dinner.</li>
                 </ul>
