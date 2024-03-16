@@ -21,12 +21,12 @@ import jeyskyURL from "./assets/jetsky.jpg";
 import improvementURL from "./assets/improvement.jpg";
 import firststepURL from "./assets/firststep.jpg";
 import freespiritURL from "./assets/freespirit.jpg";
-import sunURL from "./assets/icons/sun.png";
-import globeURL from "./assets/icons/globe.png";
-import surfURL from "./assets/icons/surf-icon.png";
-import packagesURL from "./assets/icons/packages-icon.png";
-import seasonURL from "./assets/icons/season-icon.png";
-import thumpsupURL from "./assets/icons/thumpsup-icon.png";
+import sunURL from "./assets/icons/goodvibe.png";
+import globeURL from "./assets/icons/global.png";
+import surfURL from "./assets/icons/surfing.png";
+import packagesURL from "./assets/icons/packages.png";
+import seasonURL from "./assets/icons/season.png";
+import thumpsupURL from "./assets/icons/cancellation.png";
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 
@@ -293,7 +293,7 @@ function App() {
                 <div className="card w-75 text-center border-0 d-block mx-auto mb-3">
                   <img
                     src={surfURL}
-                    width={50}
+        
                     alt="surf icon"
                     className="d-block mx-auto mb-3"
                   />
@@ -305,7 +305,7 @@ function App() {
                 <div className="card w-75 text-center border-0 d-block mx-auto mb-3">
                   <img
                     src={thumpsupURL}
-                    width={50}
+        
                     alt="surf icon"
                     className="d-block mx-auto mb-3"
                   />
@@ -317,7 +317,7 @@ function App() {
                 <div className="card w-75 text-center border-0 d-block mx-auto mb-3">
                   <img
                     src={seasonURL}
-                    width={50}
+        
                     alt="surf icon"
                     className="d-block mx-auto mb-3"
                   />
@@ -326,10 +326,10 @@ function App() {
                 </div>
               </div>
               <div className="col-6 mb-3">
-                <div className="card w-75 text-center border-0 d-block mx-auto mb-3">
+                <div className="card w-75 text-center border-0 d-block mx-auto mb-3 py-md-3">
                   <img
                     src={packagesURL}
-                    width={50}
+        
                     alt="surf icon"
                     className="d-block mx-auto mb-3"
                   />

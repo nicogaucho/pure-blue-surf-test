@@ -121,7 +121,7 @@ export default function Packages() {
                     <div className="col-12 col-md-5 mb-3">
                       <p className="tx-orange h1 tx-blue-color">First step</p>
                       <p className="lead tx-main-color">Overview</p>
-                      <p className="text-secondary">Dive into the ultimate surfing getaway with our Surf & Stay package at Pure Blue Surf & Yoga Retreat in the Maldives. Spend your days riding the waves and soaking up the sun, then retreat to our comfortable accommodation for a restful night&apos;s sleep. With expert surf instructors guiding you through exhilarating sessions and luxurious amenities awaiting your return, this package offers the perfect blend of adventure and relaxation. Whether you&apos;re a seasoned surfer or just starting out, our Surf & Stay package promises an unforgettable escape to paradise.</p>
+                      <p className="text-secondary">Our Pure Blue &quot;First Stemp&quot; package is perfect for beginner surfers who want to learn to catch some great waves step by step and join yoga classes to stretch and relax. You will discover some of the best beginner surf spots of Maldives and swim in crystalline water. During the week there are also 2 yoga sessions by the beautiful coast perfect to stretch and relax after surfing. That&quot;s not it! You will be able to try surf skateboarding and many other activities like snorkelling or kayaking. Experience the joy of surfing in paradise, where every moment is filled with adventure and relaxation.</p>
                     </div>
                   </div>
                   <div className="row mb-5 justify-content-around">
@@ -169,7 +169,7 @@ export default function Packages() {
                       <p className="text-uppercase tx-main-color lead">FOOD & ACCOMMODATION</p>
                       <p>At Pure Blue Surf & Yoga Retreat in the Maldives, you&apos;ll enjoy tasty meals and cozy rooms. Our delicious food is made with fresh ingredients, and our rooms are comfy and relaxing. You can customize both your meals and your room to suit your preferences.</p>
                       <div className="mt-5">
-                        <p><strong>From 700 €</strong> per person / Week</p>
+                        <p><strong>From 790 €</strong> per person / Week</p>
                         <button className="btn-book text-uppercase fw-bold">
                           Book now
                         </button>
@@ -185,9 +185,9 @@ export default function Packages() {
                       <img src={improvementURL} className="img-fluid" alt="" />
                     </div>
                     <div className="col-12 col-md-5 mb-3">
-                      <p className="tx-orange h1 tx-blue-color">Yoga + Stay</p>
+                      <p className="tx-orange h1 tx-blue-color">Improvement</p>
                       <p className="lead tx-main-color">Overview</p>
-                      <p className="text-secondary">Experience serenity throughout your day with our Yoga & Stay package at Pure Blue Surf & Yoga Retreat in the Maldives. Wake up to invigorating Hatha yoga sessions in the morning, followed by tranquil Yin yoga classes in the evening. Coupled with comfortable accommodation and delicious meals, it&apos;s the perfect blend of relaxation and rejuvenation amidst the stunning backdrop of the Maldivian coast.</p>
+                      <p className="text-secondary">This package is made for intermediate surfers looking to elevate their skills and ride the waves to new heights. Join us as we explore some of the finest surf spots in the Maldives like Sultan and Honkeys, specially selected to challenge and inspire your surfing abilities. Every session is held by expert instructors and it also includes photo and video analysis. In addition to unforgettable surfing sessions, you will immerse yourself in the tranquility of the Maldivian coastline with two yoga sessions per week that will perfectly complement your surfing adventures and be able to join many extra adventures like snorkelling, kayaking and many more.</p>
                     </div>
                   </div>
                   <div className="row mb-5 justify-content-around">
@@ -230,7 +230,7 @@ export default function Packages() {
                       <p className="text-uppercase tx-main-color lead">FOOD & ACCOMMODATION</p>
                       <p>At Pure Blue Surf & Yoga Retreat in the Maldives, you&apos;ll enjoy tasty meals and cozy rooms. Our delicious food is made with fresh ingredients, and our rooms are comfy and relaxing. You can customize both your meals and your room to suit your preferences.</p>
                       <div className="mt-5">
-                        <p><strong>From 650 €</strong> per person / Week</p>
+                        <p><strong>From 690 €</strong> per person / Week</p>
                         <button className="btn-book text-uppercase fw-bold">
                           Book now
                         </button>
@@ -292,7 +292,7 @@ export default function Packages() {
                       <p className="text-uppercase tx-main-color lead">FOOD & ACCOMMODATION</p>
                       <p>At Pure Blue Surf & Yoga Retreat in the Maldives, you&apos;ll enjoy tasty meals and cozy rooms. Our delicious food is made with fresh ingredients, and our rooms are comfy and relaxing. You can customize both your meals and your room to suit your preferences.</p>
                       <div className="mt-5">
-                        <p><strong>From 850 €</strong> per person / Week</p>
+                        <p><strong>From 590 €</strong> per person / Week</p>
                         <button className="btn-book text-uppercase fw-bold">
                           Book now
                         </button>
