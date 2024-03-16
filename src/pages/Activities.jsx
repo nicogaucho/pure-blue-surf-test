@@ -7,7 +7,7 @@ import jetskyURL from "../assets/jetskyhero.jpg";
 import fishingURL from "../assets/fishing.jpg";
 import sandbankURL from "../assets/slide1.jpeg";
 import yogaURL from "../assets/yogacourses.jpg";
-import skateURL from "../assets/skate.png";
+import skateURL from "../assets/skate.jpg";
 import Footer from '../components/Footer';
 
 export default function Activities() {
@@ -113,52 +113,44 @@ export default function Activities() {
                               <td>Explore the more vibrant marine life at Fish Point</td>
                             </tr>
                             <tr>
-                            <th scope="row">Fish Point snorkeling</th>
+                            <th scope="row">Turtle snorkeling</th>
                               <td>1.5 HRS</td>
                               <td>$35</td>
                               <td>$40</td>
                               <td>$80</td>
-                              <td>Explore the more vibrant marine life at Fish Point</td>
+                              <td>Swim with turtles in their natural habitat</td>
                             </tr>
                             <tr>
-                            <th scope="row">Fish Point snorkeling</th>
+                            <th scope="row">Sing ray snorkeling (BOAT)</th>
                               <td>1.5 HRS</td>
                               <td>$35</td>
                               <td>$40</td>
                               <td>$80</td>
-                              <td>Explore the more vibrant marine life at Fish Point</td>
+                              <td>Experience the thrill of ray snorkeling from a boat</td>
                             </tr>
                             <tr>
-                            <th scope="row">Fish Point snorkeling</th>
-                              <td>1.5 HRS</td>
-                              <td>$35</td>
+                            <th scope="row">Coral garden snorkeling</th>
+                              <td>2.5 HRS</td>
                               <td>$40</td>
-                              <td>$80</td>
-                              <td>Explore the more vibrant marine life at Fish Point</td>
+                              <td>$90</td>
+                              <td>$120</td>
+                              <td>Discover the underwater beauty of the coral garden</td>
                             </tr>
                             <tr>
-                            <th scope="row">Fish Point snorkeling</th>
-                              <td>1.5 HRS</td>
-                              <td>$35</td>
-                              <td>$40</td>
-                              <td>$80</td>
-                              <td>Explore the more vibrant marine life at Fish Point</td>
+                            <th scope="row">Shark point snorkeling</th>
+                              <td>2.5 HRS</td>
+                              <td>$25 <br /> minimun 4</td>
+                              <td>$90</td>
+                              <td>$180</td>
+                              <td>Dive into the adventure at Shark Point</td>
                             </tr>
                             <tr>
-                            <th scope="row">Fish Point snorkeling</th>
+                            <th scope="row">Dolphin Cruise</th>
                               <td>1.5 HRS</td>
-                              <td>$35</td>
                               <td>$40</td>
-                              <td>$80</td>
-                              <td>Explore the more vibrant marine life at Fish Point</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Fish Point snorkeling</th>
-                              <td>1.5 HRS</td>
-                              <td>$35</td>
-                              <td>$40</td>
-                              <td>$80</td>
-                              <td>Explore the more vibrant marine life at Fish Point</td>
+                              <td>$75</td>
+                              <td>$150</td>
+                              <td>Criuse alongside dolphins in a relaxing journey</td>
                             </tr>
                           </tbody>
                         </table>

@@ -19,7 +19,9 @@ import skatingURL from "./assets/skating.jpg";
 import snorkelingURL from "./assets/snorkeling.jpeg";
 import jeyskyURL from "./assets/jetsky.jpg";
 import surfstayURL from "./assets/surfstay.jpg";
-import onlystayURL from "./assets/onlystay.jpg";
+import improvementURL from "./assets/improvement.jpg";
+import firststepURL from "./assets/firststep.jpg";
+import freespiritURL from "./assets/freespirit.jpg";
 import sunURL from "./assets/icons/sun.png";
 import globeURL from "./assets/icons/globe.png";
 import surfURL from "./assets/icons/surf-icon.png";
@@ -59,35 +61,35 @@ function App() {
             </a>
             <ul className="navbar-nav col-lg-8 justify-content-lg-center">
               <li className="nav-item mx-md-3 text-white">
-                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="#">
+                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="/surfcourses">
                   SURFING
                 </a>
               </li>
               <li className="nav-item mx-md-3 text-white">
-                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="#">
+                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="/yogacourses">
                   YOGA
                 </a>
               </li>
               <li className="nav-item mx-md-3 text-white">
-                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="#">
+                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="/activites">
                   ACTIVITIES
                 </a>
               </li>
               <li className="nav-item mx-md-3 text-white">
-                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="#">
+                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="/packages">
                   PACKAGES
                 </a>
               </li>
               <li className="nav-item mx-md-3 text-white">
-                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="#">
+                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="/accomodations">
                   ACCOMMODATIONS
                 </a>
               </li>
-              <li className="nav-item mx-md-3 text-white">
-                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="#">
+              {/* <li className="nav-item mx-md-3 text-white">
+                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="#contacts">
                   CONTACTS
                 </a>
-              </li>
+              </li> */}
             </ul>
             <div className="d-lg-flex col-lg-2 justify-content-lg-end">
               <button id="book-nav" className="btn tx-blue-color fs-4 fw-bold m-0 p-0 tx-orange">
@@ -108,35 +110,35 @@ function App() {
         <div className="offcanvas-body">
         <ul className="navbar-nav col-lg-8 justify-content-lg-center">
               <li className="nav-item mx-md-3 text-white">
-                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="#">
+                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="/surfcourses">
                   SURFING
                 </a>
               </li>
               <li className="nav-item mx-md-3 text-white">
-                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="#">
+                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="/yogacourses">
                   YOGA
                 </a>
               </li>
               <li className="nav-item mx-md-3 text-white">
-                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="#">
+                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="/activites">
                   ACTIVITIES
                 </a>
               </li>
               <li className="nav-item mx-md-3 text-white">
-                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="#">
+                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="/packages">
                   PACKAGES
                 </a>
               </li>
               <li className="nav-item mx-md-3 text-white">
-                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="#">
+                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="/accomodations">
                   ACCOMMODATIONS
                 </a>
               </li>
-              <li className="nav-item mx-md-3 text-white">
-                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="#">
+              {/* <li className="nav-item mx-md-3 text-white">
+                <a className="nav-link text-reset fs-4 fw-bold tx-orange" href="#contacts">
                   CONTACTS
                 </a>
-              </li>
+              </li> */}
             </ul>
             <div className="d-lg-flex col-lg-2 justify-content-lg-end">
               <button id="book-nav" className="btn tx-blue-color fs-4 fw-bold m-0 p-0 tx-orange">
@@ -354,7 +356,7 @@ function App() {
                 EXPERIENCE THE BEST OF MALDIVES
               </p>
               <p>
-                Why choosing among surf, yoga and exploring the local culture? Our packages are designed for those who dont want to miss out the complete traveller experience!
+              Design for all levels and budget ... <span className="fw-bold tx-main-color">Pure Blue Surf & Yoga retreat</span> provide you the perfect packages for all surfers . Eat, surf, relaxe, Repeat is our Anthem
               </p>
             </div>
           </div>
@@ -362,40 +364,18 @@ function App() {
         <div className="album py-5 bg-body-tertiary">
           <div className="container">
             <div className="row">
-              <div className="col-12 col-md-6 mb-3">
-                <div className="card text-bg-dark border-0 rounded-0 text-center" style={{ height: '24rem', overflow: "hidden"}}>
+            <div className="col-12 col-md-4 mb-3">
+                <div className="card text-bg-dark border-0 rounded-0 text-center" style={{ height: '22rem', overflow: "hidden"}}>
                   <img
-                    src={surfstayURL}
+                    src={firststepURL}
                     className="card-img opacity-50"
                     alt="..."
                   />
                   <div className="card-img-overlay d-flex justify-content-center align-items-end">
                     <div>
-                      <h5 className="card-title tx-orange h1">SURF + STAY</h5>
+                      <h5 className="card-title tx-orange h1">FIRST Step</h5>
                       <p className="card-text fw-bold">
-                        STARTING FROM 700€ / WEEK
-                      </p>
-                      <Link to={'/packages'}>
-                        <button className="btn-book text-uppercase fw-bold">
-                          Info&book
-                        </button>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-6 mb-3">
-                <div className="card text-bg-dark border-0 rounded-0 text-center" style={{ height: '24rem', overflow: "hidden"}}>
-                  <img
-                    src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2420&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    className="card-img opacity-50"
-                    alt="..."
-                  />
-                  <div className="card-img-overlay d-flex justify-content-center align-items-end">
-                    <div>
-                      <h5 className="card-title tx-orange h1">YOGA + STAY</h5>
-                      <p className="card-text fw-bold">
-                        STARTING FROM 650€ / WEEK
+                        STARTING FROM 790€ / WEEK
                       </p>
                       <button className="btn-book text-uppercase fw-bold">
                         Info&book
@@ -404,20 +384,18 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-md-6 mb-3">
-                <div className="card text-bg-dark border-0 rounded-0 text-center" style={{ height: '24rem', overflow: "hidden"}}>
+              <div className="col-12 col-md-4 mb-3">
+                <div className="card text-bg-dark border-0 rounded-0 text-center" style={{ height: '22rem', overflow: "hidden"}}>
                   <img
-                    src="https://images.unsplash.com/photo-1611852794579-57e09deec14b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN1cmYlMjB5b2dhfGVufDB8fDB8fHww"
+                    src={improvementURL}
                     className="card-img opacity-50"
                     alt="..."
                   />
                   <div className="card-img-overlay d-flex justify-content-center align-items-end">
                     <div>
-                      <h5 className="card-title tx-orange h1">
-                        SURF + YOGA + STAY
-                      </h5>
+                      <h5 className="card-title tx-orange h1">IMPROVEMENT</h5>
                       <p className="card-text fw-bold">
-                        STARTING FROM 850€ / WEEK
+                        STARTING FROM 690€ / WEEK
                       </p>
                       <button className="btn-book text-uppercase fw-bold">
                         Info&book
@@ -426,18 +404,18 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-md-6 mb-3">
-                <div className="card text-bg-dark border-0 rounded-0 text-center" style={{ height: '24rem', overflow: "hidden"}}>
+              <div className="col-12 col-md-4 mb-3">
+                <div className="card text-bg-dark border-0 rounded-0 text-center" style={{ height: '22rem', overflow: "hidden"}}>
                   <img
-                    src={onlystayURL}
+                    src={freespiritURL}
                     className="card-img opacity-50"
                     alt="..."
                   />
                   <div className="card-img-overlay d-flex justify-content-center align-items-end">
                     <div>
-                      <h5 className="card-title tx-orange h1">ONLY STAY</h5>
-                      <p className="card-text fw-bold">
-                        STARTING FROM 500€ / WEEK
+                      <h5 className="card-title tx-orange h1">Free spirit</h5>
+                      <p className="card-text fw-bold"> 
+                        STARTING FROM 590€ / WEEK
                       </p>
                       <button className="btn-book text-uppercase fw-bold">
                         Info&book
@@ -729,8 +707,8 @@ function App() {
                     }}>
                        <p className='tx-orange text-white display-5'>AWESOME LIFE AT PURE BLUE</p>
                        <p className=' lead'>
-                        <a href="#" className='text-decoration-none tx-main-color'>Follow us on instagram
-                        <i className="bi bi-instagram mx-2 tx-main-color"></i>
+                        <a href="#" className='text-decoration-none text-white'>Follow us on instagram
+                        <i className="bi bi-instagram mx-2 text-white"></i>
                         </a>  
                       </p>                       
                     </div>  
@@ -747,8 +725,8 @@ function App() {
                     }}>
                     <p className='tx-orange text-white display-5'>AWESOME LIFE AT PURE BLUE</p>
                        <p className=' lead'>
-                        <a href="#" className='text-decoration-none tx-main-color'>Follow us on instagram
-                        <i className="bi bi-instagram mx-2 tx-main-color"></i>
+                        <a href="#" className='text-decoration-none text-white'>Follow us on instagram
+                        <i className="bi bi-instagram mx-2 text-white"></i>
                         </a>  
                       </p>  
                     </div>  
@@ -765,8 +743,8 @@ function App() {
                     }}>
                     <p className='tx-orange text-white display-5'>AWESOME LIFE AT PURE BLUE</p>
                        <p className=' lead'>
-                        <a href="#" className='tx-main-color text-decoration-none'>Follow us on instagram
-                        <i className="bi bi-instagram mx-2 tx-main-color"></i>
+                        <a href="#" className='text-white text-decoration-none'>Follow us on instagram
+                        <i className="bi bi-instagram mx-2 text-white"></i>
                         </a>  
                       </p>  
                     </div>  

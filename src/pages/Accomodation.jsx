@@ -45,7 +45,7 @@ export default function Accomodation() {
               <img src={noahLogo} width={130} alt="logo noah" />
               <div className="text-start ms-3">
                 <p className="h3 tx-main-color mt-md-5" >NOAH BEACH HOUSE</p>
-                <p className="text-secondary mt-3">Welcome to Noah Lodge, your ultimate surfers retreat nestled on the stunning <br /> island of Himmafushi in the Maldives. Discover our rooms</p>
+                <p className="text-secondary mt-3"> <span className="tx-main-color">Pure Blue</span> has partnered with <span className="tx-main-color">Noah Beach house</span> to provide you the ultimate surfers retreat. <br /> Welcome to <span className="tx-main-color">Noah Beach house</span>, your ultimate surfers retreat nestled on the stunning <br /> island of Himmafushi in the Maldives. Discover our rooms</p>
               </div>
             </div>
           </div>
@@ -122,14 +122,14 @@ export default function Accomodation() {
                     </div>
                     <div className="col-12 col-md-5 mb-3">
                       <p className="tx-orange h1 tx-blue-color">Standard Island view</p>
-                      <p className="text-secondary">maximum 2 beds from 65€</p>
+                      <p className="text-secondary">maximum 2 beds from 98€</p>
                       <ul>
                         <li className="my-2">Spacious and comfortable accommodation</li>
                         <li className="my-2">Stylish and modern decor</li>
                         <li className="my-2">Plush bedding for a restful night&apos;s sleep</li>
                         <li className="my-2">Ensuite bathroom with luxurious amenities</li>
                         <li className="my-2">Stunning views of the surrounding landscape</li>
-                        <li className="my-2">In-room amenities such as TV, mini-fridge, and coffee maker</li>
+                        <li className="my-2">In-room amenities such as TV, mini-fridge, and coffee maker, Air-Condition</li>
                         <li className="my-2">Complimentary Wi-Fi access</li>
                       </ul>
                     </div>
@@ -189,14 +189,14 @@ export default function Accomodation() {
                     </div>
                     <div className="col-12 col-md-5 mb-3">
                       <p className="tx-orange h1 tx-blue-color">Standard Ocean View </p>
-                      <p className="text-secondary">maximum 2 beds from 80 €</p>
+                      <p className="text-secondary">maximum 2 beds from 114 €</p>
                       <ul>
                         <li className="my-2">Spacious and comfortable accommodation</li>
                         <li className="my-2">Stylish and modern decor</li>
                         <li className="my-2">Plush bedding for a restful night&apos;s sleep</li>
                         <li className="my-2">Ensuite bathroom with luxurious amenities</li>
                         <li className="my-2">Stunning views of the surrounding landscape</li>
-                        <li className="my-2">In-room amenities such as TV, mini-fridge, and coffee maker</li>
+                        <li className="my-2">In-room amenities such as TV, mini-fridge, and coffee maker, Air-Condition</li>
                         <li className="my-2">Complimentary Wi-Fi access</li>
                       </ul>
                     </div>
@@ -256,14 +256,14 @@ export default function Accomodation() {
                     </div>
                     <div className="col-12 col-md-5 mb-3">
                       <p className="tx-orange h1 tx-blue-color">Deluxe Island Viex</p>
-                      <p className="text-secondary">maximum 3 beds from 90€</p>
+                      <p className="text-secondary">maximum 3 beds from 124€</p>
                       <ul>
                         <li className="my-2">Spacious and comfortable accommodation</li>
                         <li className="my-2">Stylish and modern decor</li>
                         <li className="my-2">Plush bedding for a restful night&apos;s sleep</li>
                         <li className="my-2">Ensuite bathroom with luxurious amenities</li>
                         <li className="my-2">Stunning views of the surrounding landscape</li>
-                        <li className="my-2">In-room amenities such as TV, mini-fridge, and coffee maker</li>
+                        <li className="my-2">In-room amenities such as TV, mini-fridge, and coffee maker, Air-Condition</li>
                         <li className="my-2">Complimentary Wi-Fi access</li>
                       </ul>
                     </div>
@@ -323,14 +323,14 @@ export default function Accomodation() {
                     </div>
                     <div className="col-12 col-md-5 mb-3">
                       <p className="tx-orange h1 tx-blue-color">Deluxe Ocean View</p>
-                      <p className="text-secondary">maximum 3 beds from 110 €</p>
+                      <p className="text-secondary">maximum 3 beds from 144 €</p>
                       <ul>
                         <li className="my-2">Spacious and comfortable accommodation</li>
                         <li className="my-2">Stylish and modern decor</li>
                         <li className="my-2">Plush bedding for a restful night&apos;s sleep</li>
                         <li className="my-2">Ensuite bathroom with luxurious amenities</li>
                         <li className="my-2">Stunning views of the surrounding landscape</li>
-                        <li className="my-2">In-room amenities such as TV, mini-fridge, and coffee maker</li>
+                        <li className="my-2">In-room amenities such as TV, mini-fridge, and coffee maker, Air-Condition</li>
                         <li className="my-2">Complimentary Wi-Fi access</li>
                       </ul>
                     </div>
@@ -350,6 +350,7 @@ export default function Accomodation() {
             <p className="mt-3">We offer a memorable culinary experience in the stunning surroundings of Himmafushi. Our restaurant serves fresh locally sourced ingredients.</p>
             <p className="mt-3">Start your day with a hearty breakfast spread featuring an assortment of freshly baked pastries, tropical fruits, and made-to-order omelets.</p>
             <p className="mt-3">Energize yourself for a day of adventure with our selection of healthy options, including granola bowls and freshly squeezed juices.</p>
+            <p className="text-secondary">* Let us know if you have intolerance or allergie, our team will always compose the best healthiest meal for you</p>
           </div>
         </div>
         <div className="row mb-3 align-items-center justify-content-around">

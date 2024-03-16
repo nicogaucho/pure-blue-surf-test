@@ -1,8 +1,8 @@
 import ScrollTop from "../components/ScrollTop";
 import style from "../styles/surfcourses.module.css";
 import pureSurfLogoWhite from "../assets/logos/pure-surf-logo-white.png";
-import skateURL from "../assets/skate.png";
-import mapURL from "../assets/map.png";
+import skateURL from "../assets/skate.jpg";
+import mapURL from "../assets/map.jpg";
 import Footer from '../components/Footer';
 
 export default function SurfCourses() {

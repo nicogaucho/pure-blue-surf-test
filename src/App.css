@@ -21,11 +21,11 @@ body {
 }
 
 .tx-main-color {
-  color: #EE9B00 !important;
+  color: #2584AA !important;
 }
 
 .bg-main-color {
-  background-color: #EE9B00;
+  background-color: #2584AA;
 }
 
 .tx-blue-color {
@@ -37,11 +37,11 @@ body {
 }
 
 .nav-link:hover {
-  color: #EE9B00 !important;
+  color: #2584AA !important;
 }
 
 #book-nav:hover {
-  color: #EE9B00 !important;
+  color: #2584AA !important;
 }
 
 .navbar-toggler {
@@ -54,7 +54,7 @@ body {
   height: 8px;
   border-radius: 50%;
   border: 1px solid white;
-  background-color: #EE9B00;
+  background-color: #2584AA;
   margin: 0px 10px;
 }
 
@@ -180,7 +180,7 @@ body {
 }
 
 .nav-link.active {
-  color: #EE9B00 !important;
+  color: #2584AA !important;
 }
 
 .bg-image {

@@ -14,9 +14,9 @@ export default function Contact() {
   }
 
   return (
-    <div className="container-fluid px-5 my-5">
+    <div className="container-fluid my-5">
       <div className="row justify-content-center align-items-center">
-        <div className="col-xl-10">
+        <div className="col-12 col-xl-10">
           <div className="card border-0 overflow-hidden">
             <div className="card-body p-0">
               <div className="row g-0 align-items-center justify-content-around">
