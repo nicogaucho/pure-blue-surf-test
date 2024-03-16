@@ -18,7 +18,6 @@ import yogacoursesURL from "./assets/yogacourses.jpg";
 import skatingURL from "./assets/skating.jpg";
 import snorkelingURL from "./assets/snorkeling.jpeg";
 import jeyskyURL from "./assets/jetsky.jpg";
-import surfstayURL from "./assets/surfstay.jpg";
 import improvementURL from "./assets/improvement.jpg";
 import firststepURL from "./assets/firststep.jpg";
 import freespiritURL from "./assets/freespirit.jpg";
@@ -364,7 +363,7 @@ function App() {
         <div className="album py-5 bg-body-tertiary">
           <div className="container">
             <div className="row">
-            <div className="col-12 col-md-4 mb-3">
+              <div className="col-12 col-md-4 mb-3">
                 <div className="card text-bg-dark border-0 rounded-0 text-center" style={{ height: '22rem', overflow: "hidden"}}>
                   <img
                     src={firststepURL}
@@ -377,9 +376,11 @@ function App() {
                       <p className="card-text fw-bold">
                         STARTING FROM 790€ / WEEK
                       </p>
-                      <button className="btn-book text-uppercase fw-bold">
-                        Info&book
-                      </button>
+                      <Link to={'/packages'}>
+                        <button className="btn-book text-uppercase fw-bold">
+                          Info&book
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -397,9 +398,11 @@ function App() {
                       <p className="card-text fw-bold">
                         STARTING FROM 690€ / WEEK
                       </p>
+                      <Link to={'/packages'}>
                       <button className="btn-book text-uppercase fw-bold">
                         Info&book
                       </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -417,9 +420,11 @@ function App() {
                       <p className="card-text fw-bold"> 
                         STARTING FROM 590€ / WEEK
                       </p>
+                      <Link to={'/packages'}>
                       <button className="btn-book text-uppercase fw-bold">
                         Info&book
                       </button>
+                      </Link>
                     </div>
                   </div>
                 </div>

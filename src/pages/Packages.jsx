@@ -1,9 +1,9 @@
 import ScrollTop from "../components/ScrollTop";
 import style from "../styles/packages.module.css";
 import pureSurfLogoWhite from "../assets/logos/pure-surf-logo-white.png";
-import onlystayPack from "../assets/slide3.jpg";
-import surfPack from "../assets/surf-pack.jpg";
-import yogaPack from "../assets/yoga-pack.jpg";
+import firststepURL from "../assets/firststep.jpg";
+import improvementURL from "../assets/improvement.jpg";
+import freespiritURL from "../assets/surf-pack.jpg";
 import Footer from '../components/Footer';
 
 export default function Packages() {
@@ -35,27 +35,20 @@ export default function Packages() {
             <thead>
               <tr>
                 <th scope="col"></th>
-                <th scope="col">Surf + Stay</th>
-                <th scope="col">Yoga + Stay</th>
-                <th scope="col">Surf + Yoga + Stay</th>
-                <th scope="col">Only Stay</th>
+                <th scope="col">FIRST STEP</th>
+                <th scope="col">IMPROVEMENT</th>
+                <th scope="col">FREE SPIRIT</th>
               </tr>
             </thead>
             <tbody>
               <tr className="table-info">
                 <th scope="row">General Info</th>
                 <td>
-                  Perfect for surfing and having some time off to relax and
-                  enjoy Maldives
+                  Perfect for learning the basics of surfing while relaxing with yoga classes
                 </td>
-                <td>Full immersion of Yoga and relaxation mode</td>
+                <td>score great waves, train turns and flow. Stretch and connect with yoga</td>
                 <td>
-                  Don’t miss a thing and dive deep into physical activities and
-                  mental and body relaxation
-                </td>
-                <td>
-                  Just relax and reset in the amazing atmosphere of Noah Beach
-                  Lodge
+                enjoy the bliss and peace of Maldives while discovering the local culture and wonderful landscapes
                 </td>
               </tr>
               <tr className="table-light">
@@ -63,29 +56,22 @@ export default function Packages() {
                 <td>
                   <ul>
                     <li>2 sessions of surfing / day</li>
-                    <li>Breakfast</li>
-                    <li>Dinner</li>
+                    <li>Accommodation 6 nights</li>
+                    <li>All meals ( breakfast, lunch, dinner )</li>
                   </ul>
                 </td>
                 <td>
                   <ul>
                     <li>2 sessions of surfing / day</li>
-                    <li>Breakfast</li>
-                    <li>Dinner</li>
+                    <li>Accommodation 6 nights</li>
+                    <li>All meals ( breakfast, lunch, dinner )</li>
                   </ul>
                 </td>
                 <td>
                   <ul>
                     <li>2 sessions of surfing / day</li>
-                    <li>Breakfast</li>
-                    <li>Dinner</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul>
-                    <li>2 sessions of surfing / day</li>
-                    <li>Breakfast</li>
-                    <li>Dinner</li>
+                    <li>Accommodation 6 nights</li>
+                    <li>All meals ( breakfast, lunch, dinner )</li>
                   </ul>
                 </td>
               </tr>
@@ -94,14 +80,12 @@ export default function Packages() {
                 <td>Private Room</td>
                 <td>Private Room</td>
                 <td>Private Room</td>
-                <td>Private Room</td>
               </tr>
               <tr className="table-light">
                 <th scope="row">Prices</th>
-                <td>700€ / week</td>
-                <td>650€ / week</td>
-                <td>850€ / week</td>
-                <td>500€ / week</td>
+                <td>790€ / week</td>
+                <td>690€ / week</td>
+                <td>590€ / week</td>
               </tr>
             </tbody>
           </table>
@@ -118,16 +102,13 @@ export default function Packages() {
           <div className="col-12">
             <ul className="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
               <li className="nav-item mx-3" role="presentation">
-                <button className="nav-link text-dark active spacing text-uppercase fw-bold" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">surf + stay</button>
+                <button className="nav-link text-dark active spacing text-uppercase fw-bold" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">FIRST STEP</button>
               </li>
               <li className="nav-item mx-3" role="presentation">
-                <button className="nav-link text-dark spacing text-uppercase fw-bold" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">yoga + stay</button>
+                <button className="nav-link text-dark spacing text-uppercase fw-bold" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">IMPROVEMENT</button>
               </li>
               <li className="nav-item mx-3" role="presentation">
-                <button className="nav-link text-dark spacing text-uppercase fw-bold" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">surf + yoga + stay</button>
-              </li>
-              <li className="nav-item mx-3" role="presentation">
-                <button className="nav-link text-dark spacing text-uppercase fw-bold" id="only-tab" data-bs-toggle="tab" data-bs-target="#only-tab-pane" type="button" role="tab" aria-controls="only-tab-pane" aria-selected="false">Only stay</button>
+                <button className="nav-link text-dark spacing text-uppercase fw-bold" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">FREE SPIRIT</button>
               </li>
             </ul>   
             <div className="tab-content" id="myTabContent">
@@ -135,10 +116,10 @@ export default function Packages() {
                 <div className="container p-5">
                   <div className="row mb-5 justify-content-around align-items-center">
                     <div className="col-12 col-md-5 mb-3">
-                      <img src={surfPack} className="img-fluid" alt="" />
+                      <img src={firststepURL} className="img-fluid" alt="" />
                     </div>
                     <div className="col-12 col-md-5 mb-3">
-                      <p className="tx-orange h1 tx-blue-color">Surf + Stay</p>
+                      <p className="tx-orange h1 tx-blue-color">First step</p>
                       <p className="lead tx-main-color">Overview</p>
                       <p className="text-secondary">Dive into the ultimate surfing getaway with our Surf & Stay package at Pure Blue Surf & Yoga Retreat in the Maldives. Spend your days riding the waves and soaking up the sun, then retreat to our comfortable accommodation for a restful night&apos;s sleep. With expert surf instructors guiding you through exhilarating sessions and luxurious amenities awaiting your return, this package offers the perfect blend of adventure and relaxation. Whether you&apos;re a seasoned surfer or just starting out, our Surf & Stay package promises an unforgettable escape to paradise.</p>
                     </div>
@@ -174,15 +155,14 @@ export default function Packages() {
                     <div className="col-12 col-md-3 mb-5">
                       <p className="text-uppercase tx-main-color lead">what is included</p>
                       <ul>
-                        <li>
-                        Surf classes and transportation provided, with equipment rental available for convenience.
-                        </li>
-                        <li>
-                        Accommodation and meals included in your chosen room.
-                        </li>
-                        <li>
-                        Complimentary transfer from Himmafushi port to Noah Beach House, with optional airport transfer for an additional fee.
-                        </li>
+                        <li>2 Yoga Classes</li>
+                        <li>Surf theory before class</li>
+                        <li>5 surf class for beginner</li>
+                        <li>boat trip to the beginner spot</li>
+                        <li>surf and equipement (booth, leash ...)</li>
+                        <li>Introduction to surf skate class , 2 per week</li>
+                        <li>Photo and video analysis</li>
+                        <li>Surf culture and behavior</li>
                       </ul>
                     </div>
                     <div className="col-12 col-md-3 mb-5">
@@ -202,7 +182,7 @@ export default function Packages() {
                 <div className="container p-5">
                   <div className="row mb-5 justify-content-around align-items-center">
                     <div className="col-12 col-md-5 mb-3">
-                      <img src={yogaPack} className="img-fluid" alt="" />
+                      <img src={improvementURL} className="img-fluid" alt="" />
                     </div>
                     <div className="col-12 col-md-5 mb-3">
                       <p className="tx-orange h1 tx-blue-color">Yoga + Stay</p>
@@ -238,15 +218,12 @@ export default function Packages() {
                     <div className="col-12 col-md-3 mb-5">
                       <p className="text-uppercase tx-main-color lead">what is included</p>
                       <ul>
-                        <li>
-                        Two Yoga classes a day with certified teacher in the beautiful Maldivian atmosphere.
-                        </li>
-                        <li>
-                        Accommodation and meals included in your chosen room.
-                        </li>
-                        <li>
-                        Complimentary transfer from Himmafushi port to Noah Beach House, with optional airport transfer for an additional fee.
-                        </li>
+                        <li>2 Yoga Classes</li>
+                        <li>Surf guiding for each lesson class 5 a week</li>
+                        <li>Surf skate class before surf class</li>
+                        <li>2/3 boat trip a week to Sultan and Honkeys waves</li>
+                        <li>2 personal and intimate video and photo analyse a week</li>
+                        <li>Surfboard rental</li>
                       </ul>
                     </div>
                     <div className="col-12 col-md-3 mb-5">
@@ -266,10 +243,10 @@ export default function Packages() {
                 <div className="container p-5">
                   <div className="row mb-5 justify-content-around align-items-center">
                     <div className="col-12 col-md-5 mb-3">
-                      <img src="https://images.unsplash.com/photo-1611852794579-57e09deec14b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN1cmYlMjB5b2dhfGVufDB8fDB8fHww" className="img-fluid" alt="" />
+                      <img src={freespiritURL} className="img-fluid" alt="" />
                     </div>
                     <div className="col-12 col-md-5 mb-3">
-                      <p className="tx-orange h1 tx-blue-color">Surf + Yoga + Stay</p>
+                      <p className="tx-orange h1 tx-blue-color">Free spirit</p>
                       <p className="lead tx-main-color">Overview</p>
                       <p className="text-secondary">The perfect blend of adventure and relaxation with our Surf & Yoga + Stay package at Pure Blue Surf & Yoga Retreat. Perfect for those seeking the thrill of surfing and the tranquility of yoga, this package offers expert surf instruction,  yoga sessions focused on muscle relaxation and flexibility, and accommodation in the stunning island scenery. Experience the best of both worlds as you choose to live an unforgettable journey of wellness and adventure in paradise.</p>
                     </div>
@@ -305,18 +282,10 @@ export default function Packages() {
                     <div className="col-12 col-md-3 mb-5">
                       <p className="text-uppercase tx-main-color lead">what is included</p>
                       <ul>
-                        <li>
-                        Surf classes and transportation provided, with equipment rental available for convenience.
-                        </li>
-                        <li>
-                        Two Yoga classes a day with certified teacher in the beautiful Maldivian atmosphere.
-                        </li>
-                        <li>
-                        Accommodation and meals included in your chosen room.
-                        </li>
-                        <li>
-                        Complimentary transfer from Himmafushi port to Noah Beach House, with optional airport transfer for an additional fee.
-                        </li>
+
+                        <li>Choose schedule as you want</li>
+                        <li>Accomodation and food, be free to upgrade your package with ours many activities</li>
+                        <li className="text-secondary">* Surfboard not included</li>
                       </ul>
                     </div>
                     <div className="col-12 col-md-3 mb-5">
@@ -324,70 +293,6 @@ export default function Packages() {
                       <p>At Pure Blue Surf & Yoga Retreat in the Maldives, you&apos;ll enjoy tasty meals and cozy rooms. Our delicious food is made with fresh ingredients, and our rooms are comfy and relaxing. You can customize both your meals and your room to suit your preferences.</p>
                       <div className="mt-5">
                         <p><strong>From 850 €</strong> per person / Week</p>
-                        <button className="btn-book text-uppercase fw-bold">
-                          Book now
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="tab-pane fade" id="only-tab-pane" role="tabpanel" aria-labelledby="only-tab" tabIndex="0">
-                <div className="container p-5">
-                  <div className="row mb-5 justify-content-around align-items-center">
-                    <div className="col-12 col-md-5 mb-3">
-                      <img src={onlystayPack} className="img-fluid" alt="" />
-                    </div>
-                    <div className="col-12 col-md-5 mb-3">
-                      <p className="tx-orange h1 tx-blue-color">Only Stay</p>
-                      <p className="lead tx-main-color">Overview</p>  
-                      <p className="text-secondary">Experience the ultimate relaxation with our Stay Only package. With plenty of time to enjoy the variety of activities, you&apos;ll have the freedom to explore the island at your own pace. Whether you choose to lounge on the beach, go for a thrilling snorkeling excursions, or simply soak in the serene surroundings, our package offers the perfect opportunity to recharge amidst the beauty of the Maldives</p>
-                    </div>
-                  </div>
-                  <div className="row mb-5 justify-content-around">
-                    <div className="col-12 col-md-3 mb-5">
-                      <p className="text-uppercase tx-main-color lead">A typical day</p>
-                      <ul>
-                        <li>
-                          <strong>07.30</strong> – Healthy breakfast.
-                        </li>
-                        <li>
-                          <strong>09.00</strong> – Time to explore the island or join activities.
-                        </li>
-                        <li>
-                          <strong>12.30</strong> – Lunch time.
-                        </li>
-                        <li>
-                          <strong>13.30</strong> – Free time for activities.
-                        </li>
-                        <li>
-                          <strong>17.30</strong> – Sunset Yoga. 
-                        </li>
-                        <li>
-                          <strong>19.30</strong> – Dinner.
-                        </li>
-                      </ul>
-                      <p className="text-secondary small">*Keep in mind that this is just a general outline of what a day of surf guiding might look like. Each day can vary depending on factors like the weather, the waves, and what the group or individual wants to do.*  </p>
-                    </div>
-                    <div className="col-12 col-md-3 mb-5">
-                      <p className="text-uppercase tx-main-color lead">what is included</p>
-                      <ul>
-                        <li>
-                        Free activities to choose at the arrival
-                        </li>
-                        <li>
-                        Accommodation and meals included in your chosen room.
-                        </li>
-                        <li>
-                        Complimentary transfer from Himmafushi port to Noah Beach House, with optional airport transfer for an additional fee.
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="col-12 col-md-3 mb-5">
-                      <p className="text-uppercase tx-main-color lead">FOOD & ACCOMMODATION</p>
-                      <p>At Pure Blue Surf & Yoga Retreat in the Maldives, you&apos;ll enjoy tasty meals and cozy rooms. Our delicious food is made with fresh ingredients, and our rooms are comfy and relaxing. You can customize both your meals and your room to suit your preferences.</p>
-                      <div className="mt-5">
-                        <p><strong>From 500 €</strong> per person / Week</p>
                         <button className="btn-book text-uppercase fw-bold">
                           Book now
                         </button>
